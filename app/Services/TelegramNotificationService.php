@@ -48,4 +48,9 @@ class TelegramNotificationService implements TelegramNotificationInterface
             buttons: $newButtons
         );
     }
+
+    public function toTelegram(): array
+    {
+        return [];
+    }
 }

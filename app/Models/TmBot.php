@@ -42,6 +42,5 @@ class TmBot extends Model
     public function setupWebhook()
     {
         $service = $this->getBotService();
-        $this->webhook_secret = app(Tele)
     }
 }
